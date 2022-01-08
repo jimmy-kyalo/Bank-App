@@ -11,7 +11,7 @@
 //import java.util.List;
 //
 //public class BankTransactionAnalyzerSimple {
-//    private static final String RESOURCES = "/src/resources/";
+//    private static final String RESOURCES = "/src/com.company.resources/";
 //
 //    public static void main(final String... args) throws IOException {
 //        final BankStatementCSVParser bankStatementParser = new BankStatementCSVParser();

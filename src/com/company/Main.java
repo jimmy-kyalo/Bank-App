@@ -2,7 +2,7 @@ package com.company;
 
 import java.io.IOException;
 
-public class MainApplication {
+public class Main {
 
     public static void main(final String... args) throws IOException {
 	final BankStatementAnalyzer bankStatementAnalyzer = new BankStatementAnalyzer();

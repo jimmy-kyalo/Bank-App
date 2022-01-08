@@ -8,7 +8,7 @@ import java.time.Month;
 import java.util.List;
 
 public class BankStatementAnalyzer {
-    private static final String RESOURCES = "/src/resources/";
+    private static final String RESOURCES = "D:\\Jimmy\\Bank App\\src\\com.company.resources";
     private static final BankStatementCSVParser bankStatementParser = new BankStatementCSVParser();
 
     public void analyze(final String fileName, final BankStatementParser bankStatementParser) throws IOException{
