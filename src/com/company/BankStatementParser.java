@@ -3,6 +3,6 @@ package com.company;
 import java.util.List;
 
 public interface BankStatementParser {
-    BankTransaction parseFromCSV(String line);
-    List<BankTransaction> parseLinesFromCSV(List<String> lines);
+    BankTransaction parseFrom(String line);
+    List<BankTransaction> parseLinesFrom(List<String> lines);
 }

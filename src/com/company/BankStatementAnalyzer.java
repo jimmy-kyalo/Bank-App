@@ -14,7 +14,7 @@ public class BankStatementAnalyzer {
     public void analyze(final String fileName, final BankStatementParser bankStatementParser) throws IOException{
         final Path path = Paths.get(RESOURCES + fileName);
         final List<String> lines = Files.readAllLines(path);
-        final List<BankTransaction> bankTransactions = bankStatementParser.parseLinesFromCSV(lines);
+        final List<BankTransaction> bankTransactions = bankStatementParser.parseLinesFrom(lines);
         final BankStatementProcessor bankStatementProcessor = new BankStatementProcessor(bankTransactions);
         collectSummary(bankStatementProcessor);
     }
